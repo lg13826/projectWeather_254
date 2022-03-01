@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import python_weather
 import asyncio
 
@@ -6,7 +7,7 @@ async def getweather():
     client = python_weather.Client(format=python_weather.IMPERIAL)
 
     # fetch a weather forecast from a city
-    weather = await client.find("Washington DC")
+    weather = await client.find("Santa Ana")
 
     # returns the current day's forecast temperature (int)
     print(weather.current.temperature)

@@ -13,6 +13,7 @@ GNU General Public License for more details.
 A copy of the GNU General Public License v3 is available here:  <https://www.gnu.org/licenses/>.
 
 # Author Information
+Group name: Weather
 Authors:   Nicholas Vuong , Luciano Gibertoni
 Emails:  nicholasvuong123@csu.fullerton.edu , lgibertoni@csu.fullerton.edu
 Institution:   California State University Fullerton

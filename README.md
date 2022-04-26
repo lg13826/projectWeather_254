@@ -1,5 +1,5 @@
 # projectWeather_254
-Weather App v0.1
+Weather App v1.0
 
 A weather Application with a GUI
 

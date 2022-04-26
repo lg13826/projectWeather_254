@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 import python_weather
 import asyncio
+import sys
 
-async def getweather():
+async def getweather(location):
     # declare the client. format defaults to metric system (celcius, km/h, etc.)
     client = python_weather.Client(format=python_weather.IMPERIAL)
 
     # fetch a weather forecast from a city
-    weather = await client.find("Santa Ana")
+    weather = await client.find(location)
 
     # returns the current day's forecast temperature (int)
     print(weather.current.temperature)
@@ -20,5 +21,6 @@ async def getweather():
     await client.close()
 
 if __name__ == "__main__":
+    location = sys.argv[1]
     loop = asyncio.get_event_loop()
-    loop.run_until_complete(getweather())
+    loop.run_until_complete(getweather(location))

@@ -1,4 +1,9 @@
-#!/usr/bin/env python3
+#! /usr/bin/env python3
+# Group name: Weather App
+# Authors:   Nicholas Vuong , Luciano Gibertoni
+# Emails:  nicholasvuong123@csu.fullerton.edu , lgibertoni@csu.fullerton.edu
+# Institution:   California State University Fullerton
+
 import python_weather
 import asyncio
 import sys

@@ -16,7 +16,7 @@ async def getweather(location):
     weather = await client.find(location)
 
     # returns the current day's forecast temperature (int)
-    print(weather.current.temperature)
+    print("Current temperature is {}.".format(weather.current.temperature))
 
     # get the weather forecast for a few days
     for forecast in weather.forecasts:
